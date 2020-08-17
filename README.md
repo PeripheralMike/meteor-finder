@@ -5,4 +5,10 @@ A script that will use NASA's free data on meteors to locate the closest ones to
 
 This project required Pythons 3 and the requests package
 
-`python3 find-meteors.py`
+First; install pipenv. Then:
+
+```
+pipenv install
+pipenv run "python find-meteors.py"
+
+```
